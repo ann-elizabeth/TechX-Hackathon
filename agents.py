@@ -25,6 +25,8 @@ def extract_all_skills_from_data(github_data, resume_data):
         all_skills.extend(tech_skills.get('web', []))
         all_skills.extend(tech_skills.get('core_cs', []))
         all_skills.extend(tech_skills.get('tools', []))
+        all_skills.extend(tech_skills.get('databases', []))
+        all_skills.extend(tech_skills.get('ai_ml', []))
     
     # Remove duplicates and normalize
     unique_skills = list(set(skill.strip() for skill in all_skills if skill))
