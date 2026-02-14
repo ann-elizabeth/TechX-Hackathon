@@ -59,6 +59,7 @@ Suggest mini-project ideas
 
 
 5. Key Features
+
    
 GitHub profile skill extraction
 Resume PDF parsing
@@ -70,6 +71,7 @@ Clean and modular architecture
 
 
 6. Technical Architecture
+
 
 The project is divided into modular components:
 Frontend Layer
@@ -87,6 +89,7 @@ This separation improves scalability and maintainability.
 
 7. Skill Matching Logic
 
+
 The system calculates compatibility using:
 
 Match Percentage = (Number of Matching Skills / Total Required Skills) × 100
@@ -95,6 +98,7 @@ Missing skills are ranked and prioritized to create a focused improvement plan.
 
 
 8. Design Philosophy
+
 
 This project is built on three principles:
 Practicality – Focus on real-world applicability
